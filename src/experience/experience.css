@@ -1,0 +1,24 @@
+#colorChange{
+    font-size:75px;
+    color:#008489;
+    line-height:80px;
+    font-weight:800;
+    background-clip: content-box;
+    animation: colorchange 6s linear infinite;
+}
+
+@keyframes colorchange 
+{
+    0%{color:#008489  }
+    33%{color:#A61D55  }
+    66%{color: #FFB400 }
+    100%{color:#008489  }
+}
+
+@-webkit-keyframes colorchange 
+{
+    0%{color:#008489  }
+    33%{color:#A61D55  }
+    66%{color: #FFB400 }
+    100%{color:#008489  }
+}

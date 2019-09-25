@@ -1,0 +1,87 @@
+.inBox{
+    width:29%;
+    margin: 0 2%;
+    display:inline-block;
+    vertical-align:top;
+    overflow:hidden
+}
+
+.container{
+    width:60%;
+    margin:60px auto 140px;
+}
+
+#topLeft,#topRight,#left,#right,#leftBottom,#rightBottom,#learnMore{
+    width:300px;
+    color:#484848;
+    padding:30px 20px;
+}
+
+
+.ant-popover-title{
+    color:#484848;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ant-input-group.ant-input-group-compact > *:first-child, 
+.ant-input-group.ant-input-group-compact > .ant-select:first-child > 
+.ant-select-selection, .ant-input-group.ant-input-group-compact > 
+.ant-calendar-picker:first-child .ant-input, .ant-input-group.ant-input-group-compact > 
+.ant-select-auto-complete:first-child .ant-input, .ant-input-group.ant-input-group-compact > 
+.ant-cascader-picker:first-child .ant-input, .ant-input-group.ant-input-group-compact > 
+.ant-mention-wrapper:first-child .ant-mention-editor, .ant-input-group.ant-input-group-compact > 
+.ant-time-picker:first-child .ant-time-picker-input{
+    height:50px;
+    border-radius:10px,
+}
+
+
+.ant-input-group.ant-input-group-compact > *:last-child, 
+.ant-input-group.ant-input-group-compact > .ant-select:last-child > 
+.ant-select-selection, .ant-input-group.ant-input-group-compact > 
+.ant-calendar-picker:last-child .ant-input, .ant-input-group.ant-input-group-compact > 
+.ant-select-auto-complete:last-child .ant-input, .ant-input-group.ant-input-group-compact > 
+.ant-cascader-picker:last-child .ant-input, .ant-input-group.ant-input-group-compact > 
+.ant-cascader-picker-focused:last-child .ant-input, .ant-input-group.ant-input-group-compact > 
+.ant-mention-wrapper:last-child .ant-mention-editor, .ant-input-group.ant-input-group-compact > 
+.ant-time-picker:last-child .ant-time-picker-input{
+    height:50px
+}
+
+.ant-select-selection--single .ant-select-selection__rendered{
+    margin:10px
+}
+
+
+/* rent文件夹*/
+
+.rentnav{
+    display:inline-block;
+    height:80px;
+    padding:0 16px;
+    margin:0 4px;
+    color:white;
+    font-size:16px;
+    line-height:80px;
+    font-weight: bold;
+    font-family: 微软雅黑 ;
+    cursor: pointer;
+}
+
+.rentnav:hover{
+    border-bottom:solid 2px #484848;
+}
+
+.ant-btn,.ant-input,.ant-input-group{
+    position: static;
+}
+
+#Listing .ant-select-selection--single , #Listing .ant-select-selection__rendered{
+    position: static;  
+}
+
+
+#tenantNumber .ant-select-selection--single , #tenantNumber .ant-select-selection__rendered{
+    position: static;  
+}
